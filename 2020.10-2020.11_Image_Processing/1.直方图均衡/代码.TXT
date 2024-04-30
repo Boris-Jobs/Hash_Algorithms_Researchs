@@ -1,0 +1,16 @@
+%直方图
+
+clear
+pho=imread('pro.jpg');
+pho1=double(pho)
+max=max(max(pho1))
+min=min(min(pho1))
+pho2=(pho1-min)*(256/(max-min))
+pho3=(pho1-min)*(120/(max-min))
+pho4=(pho1-min)*(50/(max-min))
+subplot(2,3,1),imshow(uint8(pho2)),title('thresholding~256');
+subplot(2,3,4),imhist(uint8(pho2)),xlim([0 255]),title('thresholding~256');
+subplot(2,3,2),imshow(uint8(pho3)),title('thresholding~120');
+subplot(2,3,5),imhist(uint8(pho3)),xlim([0 255]),title('thresholding~120')
+subplot(2,3,3),imshow(uint8(pho)),title('origin');
+subplot(2,3,6),imhist(pho),xlim([0 255]),title('origin')

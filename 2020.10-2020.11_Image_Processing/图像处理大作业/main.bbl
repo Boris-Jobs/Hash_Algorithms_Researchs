@@ -1,0 +1,17 @@
+\begin{thebibliography}{1}
+
+\bibitem{2011Graph}
+Deng Cai, Xiaofei He, Jiawei Han, and Thomas~S Huang.
+\newblock Graph regularized non-negative matrix factorization for data
+  representation.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  33(8):1548--1560, 2011.
+
+\bibitem{2017Salient}
+Houwen Peng, Bing Li, Haibin Ling, Weiming Hu, Weihua Xiong, and Stephen~J.
+  Maybank.
+\newblock Salient object detection via structured matrix decomposition.
+\newblock {\em IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  39(4):818--832, 2017.
+
+\end{thebibliography}
